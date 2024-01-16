@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    width: 100%;
+    height: 20vb;
+    background-color: aquamarine;
+}
+.nav1{
+    width: 100%;
+    height: 10vb;
+    float: left;
+}
+
+.nav2{
+    width: 100%;
+    height: 10vb;
+    float: right;
+ 
+}
+
+.nav2 a{
+ 
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+ 
+}
+
+.home{
+    width: 100%;
+    height: 200vb;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.home1{
+    width: 100%;
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.home2{
+
+    width: 100%;
+    height: 100vb;
+    
+}
+
+.underdiv{
+    position: absolute;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.men{
+    width: 80%;
+    margin-left: 10%;
+    height: 3900px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px 10px;
+}
+
+.men .men11{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.menh{
+    margin-top: 100px;
+    margin-bottom:50px ;
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+} 
+
+.about{
+    width: 90%;
+    height: 120vb;
+    background-color: aliceblue;
+    border-radius: 10%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    box-shadow: 2px 3px 5px rgb(1, 0, 0);
+
+}
+
+
+.about1{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+  
+
+}
+
+.about2{
+    width: 100%;
+    
+}
+
+.about1 h2{
+    margin-top: 10px;
+    color: rgb(224, 73, 73);
+    font-size: 35px;
+
+}
+
+.contact{
+    width: 70%;
+    height: 90vb;
+    margin-left: 15%;
+    box-shadow: 2px 2px 4px black;
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+.contact1{
+    margin-bottom: 15px;
+}
+.contact label{
+
+   font-size: 20px;
+   font-weight: bold;
+   
+}
+
+.contact input{
+    width: 210px;
+    height: 30px;
+    border: none;
+}
+
+.contact textarea{
+   width: 210px;
+   height: 300px;
+ 
+}
+
+.last{
+    width: 100%;
+    height:600px;
+    background-color: #000000;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.last3{
+    float: right;
+    padding-left: 20px;
+   
+
+}
